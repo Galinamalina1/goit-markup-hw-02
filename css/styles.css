@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
+  color: #434455 ;
+  background-color: #FFFFFF;
 
 }
 
@@ -19,16 +20,18 @@ a {
 .header-navigation {
 }
 .header-logo {
-  color: #2e2f42;
-  font-family: Raleway;
+  color: #4D5AE5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
+  text-transform: uppercase
 }
 .header-logo-color {
- color: #4D5AE5;
+ color: #2E2F42;
+;
 }
 
 .header-menu-list {
@@ -45,7 +48,7 @@ a {
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color:#4d5ae5;
+  color:#404bbf;
 }
 }
 
@@ -68,6 +71,11 @@ font-weight: 400;
 line-height: 1.50;
 letter-spacing: 0.02em;
 text-align: left;
+}
+
+.header-adress-link:hover,
+.header-adress-link:focus {
+  color:#404bbf;
 }
 
 /* ========================================================================= */
@@ -97,9 +105,12 @@ text-align: left;
   cursor: pointer;
 }
 
-.hero-btn:hover, .hero-btn:hover:focus {
-  color: #404BBF;
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404BBF; 
 }
+
+
 /* ========================================================================= */
 /* ================================FEATURES===================================== */
 
@@ -159,14 +170,19 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize
+}
 
-}
 .team-list {
+  background-color: #FFFFFF
 }
+
 .team-item {
 }
+
 .team-img {
 }
+
 .team-subtitle {
 color: #2E2F42;
 font-size: 20px;
@@ -199,12 +215,15 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
-
+text-transform: capitalize
 }
 .portfolio-list {
+  
 }
+
 .portfolio-item {
 }
+
 .portfolio-img {
 }
 
@@ -235,18 +254,18 @@ text-align: center;
 }
 
 .footer-logo {
- color: #F4F4FD;
- font-family: Raleway;
+ color: #4D5AE5;
+ font-family: "Raleway", sans-serif;
  font-size: 18px;
  font-weight: 700;
- line-height: 21px;
+ line-height: 1.17;
  letter-spacing: 0.03em;
  text-align: left;
-
+ text-transform: uppercase
 }
 
 .footer-logo-color {
-  color: #4D5AE5;
+  color: #F4F4FD;
 }
 
 .footer-text {
