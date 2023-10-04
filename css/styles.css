@@ -2,7 +2,22 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455 ;
   background-color: #FFFFFF;
-
+  position: none;
+  width: none;
+  height: none;
+  left: none;
+  top: none;
+  box-sizing: none;
+  display: none;
+  align-items: normal;
+  padding: none;
+  flex-direction: none;
+  gap: none;
+  border-radius: none;
+  box-shadow: none;
+  order: none;
+  flex-grow: none;
+  border-bottom: none;
 }
 
 ul {
@@ -174,7 +189,7 @@ text-transform: capitalize
 }
 
 .team-list {
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
 }
 
 .team-item {
