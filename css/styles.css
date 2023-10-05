@@ -2,22 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  position: none;
-  width: none;
-  height: none;
-  left: none;
-  top: none;
-  box-sizing: none;
-  display: none;
-  align-items: normal;
-  padding: none;
-  flex-direction: none;
-  gap: none;
-  border-radius: none;
-  box-shadow: none;
-  order: none;
-  flex-grow: none;
-  border-bottom: none;
 }
 
 ul {
@@ -64,10 +48,6 @@ a {
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: #404bbf;
-}
-
-.header-menu-link:focus {
-  color: ;
 }
 
 .heeader-adress {
@@ -131,12 +111,8 @@ a {
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
   margin: -1px;
   border: 0;
-  padding: 0;
 
   white-space: nowrap;
   clip-path: inset(100%);
@@ -186,6 +162,7 @@ a {
 }
 
 .team-item {
+  background-color: #ffffff;
 }
 
 .team-img {
