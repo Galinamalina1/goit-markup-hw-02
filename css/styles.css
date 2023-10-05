@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455 ;
-  background-color: #FFFFFF;
+  color: #434455;
+  background-color: #ffffff;
   position: none;
   width: none;
   height: none;
@@ -35,18 +35,17 @@ a {
 .header-navigation {
 }
 .header-logo {
-  color: #4D5AE5;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 .header-logo-color {
- color: #2E2F42;
-;
+  color: #2e2f42;
 }
 
 .header-menu-list {
@@ -61,14 +60,14 @@ a {
   letter-spacing: 0.02em;
   text-align: left;
 }
+
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color:#404bbf;
-}
+  color: #404bbf;
 }
 
 .header-menu-link:focus {
-  color:
+  color: ;
 }
 
 .heeader-adress {
@@ -80,17 +79,17 @@ a {
 }
 
 .header-adress-link {
-color: #434455;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.50;
-letter-spacing: 0.02em;
-text-align: left;
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .header-adress-link:hover,
 .header-adress-link:focus {
-  color:#404bbf;
+  color: #404bbf;
 }
 
 /* ========================================================================= */
@@ -98,7 +97,7 @@ text-align: left;
 /* ================================HERO===================================== */
 
 .hero {
-  background: #2E2F42;
+  background: #2e2f42;
 }
 .hero-title {
   color: #ffffff;
@@ -109,7 +108,7 @@ text-align: left;
   text-align: center;
 }
 .hero-btn {
-  background: #4D5AE5;
+  background: #4d5ae5;
   color: #ffffff;
   font-family: inherit;
   font-size: 16px;
@@ -122,9 +121,8 @@ text-align: left;
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #404BBF; 
+  background-color: #404bbf;
 }
-
 
 /* ========================================================================= */
 /* ================================FEATURES===================================== */
@@ -139,7 +137,7 @@ text-align: left;
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -151,45 +149,40 @@ text-align: left;
 .features-item {
 }
 .features-subtitle {
-color: #2E2F42;
-font-size: 20px;
-font-weight: 500;
-line-height: 1.20;
-letter-spacing: 0.02em;
-text-align: left;
-
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 .features-item-text {
-color: #434455;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.50;
-letter-spacing: 0.02em;
-text-align: left;
-
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 
 /* ========================================================================= */
 /* ================================TEAM===================================== */
 
-
-
 .team {
-  background: #F4F4FD;
-
+  background: #f4f4fd;
 }
 .team-title {
-color: #2E2F42;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-align: center;
-text-transform: capitalize
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .team-list {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .team-item {
@@ -199,24 +192,21 @@ text-transform: capitalize
 }
 
 .team-subtitle {
-color: #2E2F42;
-font-size: 20px;
-font-weight: 500;
-line-height: 1.20;
-letter-spacing: 0.02em;
-text-align: center;
-
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .team-text {
-color: #434455;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.50;
-letter-spacing: 0.02em;
-text-align: center;
-
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
-
 
 /* ========================================================================= */
 /* ================================PORTFOLIO===================================== */
@@ -224,16 +214,15 @@ text-align: center;
 .portfolio {
 }
 .portfolio-title {
-color: #2E2F42;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-align: center;
-text-transform: capitalize
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 .portfolio-list {
-  
 }
 
 .portfolio-item {
@@ -243,54 +232,52 @@ text-transform: capitalize
 }
 
 .portfolio-subtitle {
- color: #2E2F42;
- font-size: 20px;
- font-weight: 500;
- line-height: 1.20;
- letter-spacing: 0.02em;
- text-align: left;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 
 .portfolio-text {
- color: #434455;
- font-size: 16px;
- font-weight: 400;
- line-height: 1.50;
- letter-spacing: 0.02em;
- text-align: left;
-
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 
 /* ========================================================================= */
 /* ================================FOOTER===================================== */
 
-.footer { 
- background: #2E2F42;
+.footer {
+  background: #2e2f42;
 }
 
 .footer-logo {
- color: #4D5AE5;
- font-family: "Raleway", sans-serif;
- font-size: 18px;
- font-weight: 700;
- line-height: 1.17;
- letter-spacing: 0.03em;
- text-align: left;
- text-transform: uppercase
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 .footer-logo-color {
-  color: #F4F4FD;
+  color: #f4f4fd;
 }
 
 .footer-text {
- color: #F4F4FD;
- font-size: 16px;
- font-weight: 400;
- line-height: 1.50;
- letter-spacing: 0.02em;
- text-align: left;
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
-
 
 /* ========================================================================= */
